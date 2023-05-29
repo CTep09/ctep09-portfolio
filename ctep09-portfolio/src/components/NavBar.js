@@ -8,8 +8,8 @@ function NavBar(currentPage, handlePageChange) {
           onClick={() => handlePageChange("About")}
           className={
             currentPage === "About"
-              ? "btn btn-fill btn-success"
-              : "btn btn-outline btn-success"
+              ? "btn btn-fill btn-success mr-4"
+              : "btn btn-outline btn-success mr-4"
           }
         >
           About
@@ -20,8 +20,8 @@ function NavBar(currentPage, handlePageChange) {
           onClick={() => handlePageChange("Contact")}
           className={
             currentPage === "Contact"
-              ? "btn btn-fill btn-secondary"
-              : "btn btn-outline btn-secondary"
+              ? "btn btn-fill btn-secondary mr-4"
+              : "btn btn-outline btn-secondary mr-4"
           }
         >
           Contact
@@ -32,8 +32,8 @@ function NavBar(currentPage, handlePageChange) {
           onClick={() => handlePageChange("Portfolio")}
           className={
             currentPage === "Portfolio"
-              ? "btn btn-fill btn-success"
-              : "btn btn-outline btn-success"
+              ? "btn btn-fill btn-success mr-4"
+              : "btn btn-outline btn-success mr-4"
           }
         >
           Portfolio
@@ -44,8 +44,8 @@ function NavBar(currentPage, handlePageChange) {
           onClick={() => handlePageChange("Resume")}
           className={
             currentPage === "Resume"
-              ? "btn btn-fill btn-outline"
-              : "btn btn-outline btn-outline"
+              ? "btn btn-fill btn-outline mr-4"
+              : "btn btn-outline btn-outlinemr-4"
           }
         >
           Resume
