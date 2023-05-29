@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 import NavBar from "./NavBar";
-// import Header from "./Header";
+import Header from "./Header";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
@@ -28,7 +28,7 @@ function PortfolioContainer() {
 
   return (
     <div>
-      {/* <Header /> */}
+      <Header />
       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* {renderPage()} */}
       <Footer />
