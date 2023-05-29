@@ -2,7 +2,7 @@ import React from "react";
 
 function NavBar(currentPage, handlePageChange) {
   return (
-    <ul className="flex flex-row">
+    <ul className="flex flex-row mb-8 ">
       <li>
         <a
           onClick={() => handlePageChange("About")}
