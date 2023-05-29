@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="footer p-10 bg-base-200 text-base-content mt-6">
+    <footer className="footer p-2 bg-purple-50 text-base-content mt-8">
       <div>
         <p className="text-xl">CTep</p>
       </div>

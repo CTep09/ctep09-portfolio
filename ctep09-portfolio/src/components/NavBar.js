@@ -1,10 +1,11 @@
 import React from "react";
 
-function NavBar(currentPage, handlePageChange) {
+function NavBar({currentPage, handlePageChange}) {
   return (
-    <ul className="flex flex-row mb-8 ">
+    <ul className="flex flex-row mb-8 bg-white">
       <li>
         <a
+          href="#About"
           onClick={() => handlePageChange("About")}
           className={
             currentPage === "About"
@@ -17,6 +18,7 @@ function NavBar(currentPage, handlePageChange) {
       </li>
       <li>
         <a
+          href="#Contact"
           onClick={() => handlePageChange("Contact")}
           className={
             currentPage === "Contact"
@@ -29,6 +31,7 @@ function NavBar(currentPage, handlePageChange) {
       </li>
       <li>
         <a
+          href="Portfolio"
           onClick={() => handlePageChange("Portfolio")}
           className={
             currentPage === "Portfolio"
@@ -41,6 +44,7 @@ function NavBar(currentPage, handlePageChange) {
       </li>
       <li>
         <a
+          href="Resume"
           onClick={() => handlePageChange("Resume")}
           className={
             currentPage === "Resume"

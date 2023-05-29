@@ -30,7 +30,7 @@ function PortfolioContainer() {
     <div>
       <Header />
       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* {renderPage()} */}
+      {renderPage()}
       <Footer />
     </div>
   );
