@@ -1,11 +1,12 @@
 import React from "react";
+import cassBiscuit from '../images/cassBiscuit.jpeg'
 
 function About() {
   return (
     <div className="hero min-h-screen bg-red-50">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
-          src="/images/stock/photo-1635805737707-575885ab0820.jpg"
+          src={cassBiscuit} alt="Me and my dog Biscuit"
           className="max-w-sm rounded-lg shadow-2xl"
         />
         <div>
