@@ -1,7 +1,7 @@
 import React from "react";
 import barista from "../images/barista.gif";
 import hopsHaven from "../images/hops-haven.png";
-import horiseon from "../images/horiseon-live-site.gif";
+import noteTaker from "../images/note-taker.gif";
 import techBlog from "../images/tech-blog.gif";
 
 function Portfolio() {
@@ -20,9 +20,14 @@ function Portfolio() {
           <h2 className="card-title">barista</h2>
           <p>
             The barista webapp dynamically generates local cafe's, and displays
-            a list cafe's and their address.{" "}
+            a list cafe's and their address.
           </p>
-          <button className="btn btn-primary">Visit barista Site</button>
+          <a
+            href="https://jonnyboy808.github.io/barista/"
+            className="btn btn-primary"
+          >
+            Visit barista Site
+          </a>
         </div>
       </div>
 
@@ -42,25 +47,35 @@ function Portfolio() {
             use to find data on the beers they love and discover new beers they
             might enjoy.
           </p>
+          <a
+            href="https://hops-haven.herokuapp.com/"
+            className="btn btn-primary"
+          >
+            Visit Hops Haven
+          </a>
         </div>
       </div>
 
-      {/* Horiseon Project */}
+      {/* Note Taker Project */}
       <div className="card mx-4 mt-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 glass">
         <figure>
           <img
-            src={horiseon}
+            src={noteTaker}
             className="max-w-sm rounded-lg shadow-2xl"
             alt="Hops Haven"
           />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">Hops Haven</h2>
+          <h2 className="card-title">Note Taker</h2>
           <p>
-            Hops-Haven is a full-stack web application that beer enthusiasts can
-            use to find data on the beers they love and discover new beers they
-            might enjoy.
+          Note taking web application is simple and easy to use. The user simply needs to visit the link below, click "Get Started" and they are taken to a page with any notes they have previously saved.
           </p>
+          <a
+            href="https://cass-note-taker.herokuapp.com/"
+            className="btn btn-primary"
+          >
+            Visit Note Taker
+          </a>
         </div>
       </div>
 
@@ -81,6 +96,12 @@ function Portfolio() {
             they will see posts that other users have made and any comments as
             well.
           </p>
+          <a
+            href="https://ct-tech-blog.herokuapp.com/"
+            className="btn btn-primary"
+          >
+            Visit Tech Blog
+          </a>
         </div>
       </div>
     </div>
