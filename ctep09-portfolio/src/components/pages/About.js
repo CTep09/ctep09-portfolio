@@ -3,7 +3,7 @@ import cassBiscuit from '../images/cassBiscuit.jpeg'
 
 function About() {
   return (
-    <div className=" hero min-h-screen bg-gradient-to-l from-indigo-500">
+    <div className=" hero min-h-screen bg-gradient-to-l from-indigo-500 to-indigo-300">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
           src={cassBiscuit} alt="Me and my dog Biscuit"

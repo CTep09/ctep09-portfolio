@@ -68,7 +68,9 @@ function Portfolio() {
         <div className="card-body">
           <h2 className="card-title">Note Taker</h2>
           <p>
-          Note taking web application is simple and easy to use. The user simply needs to visit the link below, click "Get Started" and they are taken to a page with any notes they have previously saved.
+            Note taking web application is simple and easy to use. The user
+            simply needs to visit the link below, click "Get Started" and they
+            are taken to a page with any notes they have previously saved.
           </p>
           <a
             href="https://cass-note-taker.herokuapp.com/"

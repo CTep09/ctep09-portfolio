@@ -2,7 +2,7 @@ import React from "react";
 
 function NavBar({currentPage, handlePageChange}) {
   return (
-    <ul className="flex flex-row mb-8 bg-white">
+    <ul className="flex flex-row mb-8 bg-pink-50">
       <li>
         <a
           href="#About"
