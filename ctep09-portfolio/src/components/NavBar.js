@@ -31,7 +31,7 @@ function NavBar({currentPage, handlePageChange}) {
       </li>
       <li>
         <a
-          href="Portfolio"
+          href="#Portfolio"
           onClick={() => handlePageChange("Portfolio")}
           className={
             currentPage === "Portfolio"
@@ -44,7 +44,7 @@ function NavBar({currentPage, handlePageChange}) {
       </li>
       <li>
         <a
-          href="Resume"
+          href="#Resume"
           onClick={() => handlePageChange("Resume")}
           className={
             currentPage === "Resume"
