@@ -3,7 +3,7 @@ import ctepperResume from "../images/ctepperResume.png";
 
 function Resume() {
   return (
-    <div className="card card-side bg-base-100 shadow-xl">
+    <div className="flex-auto card card-side bg-base-100 shadow-xl">
       <figure>
               <img
           src={ctepperResume}
