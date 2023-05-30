@@ -2,15 +2,15 @@ import React from "react";
 
 function NavBar({currentPage, handlePageChange}) {
   return (
-    <ul className="flex flex-row mb-8 bg-pink-50">
+    <ul className="flex flex-row mb-8 bg-white">
       <li>
         <a
           href="#About"
           onClick={() => handlePageChange("About")}
           className={
             currentPage === "About"
-              ? "btn btn-fill btn-success mr-4"
-              : "btn btn-outline btn-success mr-4"
+              ? "btn btn-fill btn-secondary mr-4"
+              : "btn btn-outline btn-secondary mr-4"
           }
         >
           About
@@ -35,8 +35,8 @@ function NavBar({currentPage, handlePageChange}) {
           onClick={() => handlePageChange("Portfolio")}
           className={
             currentPage === "Portfolio"
-              ? "btn btn-fill btn-success mr-4"
-              : "btn btn-outline btn-success mr-4"
+              ? "btn btn-fill btn-secondary mr-4"
+              : "btn btn-outline btn-secondary mr-4"
           }
         >
           Portfolio
@@ -48,8 +48,8 @@ function NavBar({currentPage, handlePageChange}) {
           onClick={() => handlePageChange("Resume")}
           className={
             currentPage === "Resume"
-              ? "btn btn-fill btn-outline mr-4"
-              : "btn btn-outline btn-outlinemr-4"
+              ? "btn btn-fill btn-secondary mr-4"
+              : "btn btn-secondary btn-outline mr-4"
           }
         >
           Resume
