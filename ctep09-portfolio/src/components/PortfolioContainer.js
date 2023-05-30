@@ -29,8 +29,12 @@ function PortfolioContainer() {
   return (
     <div>
       <Header />
+      <div className="flex justify-center items-center">
+        <div className="flex-col">
       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
+        </div>
+      </div>
       <Footer />
     </div>
   );

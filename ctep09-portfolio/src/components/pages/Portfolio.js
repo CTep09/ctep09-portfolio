@@ -24,7 +24,7 @@ function Portfolio() {
           </p>
           <a
             href="https://jonnyboy808.github.io/barista/"
-            className="btn btn-primary"
+            className="btn btn-outline"
           >
             Visit barista Site
           </a>
@@ -49,7 +49,7 @@ function Portfolio() {
           </p>
           <a
             href="https://hops-haven.herokuapp.com/"
-            className="btn btn-primary"
+            className="btn btn-outline"
           >
             Visit Hops Haven
           </a>
@@ -74,7 +74,7 @@ function Portfolio() {
           </p>
           <a
             href="https://cass-note-taker.herokuapp.com/"
-            className="btn btn-primary"
+            className="btn btn-outline"
           >
             Visit Note Taker
           </a>
@@ -100,7 +100,7 @@ function Portfolio() {
           </p>
           <a
             href="https://ct-tech-blog.herokuapp.com/"
-            className="btn btn-primary"
+            className="btn btn-outline"
           >
             Visit Tech Blog
           </a>
