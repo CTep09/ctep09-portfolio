@@ -4,7 +4,7 @@ function NavBar({currentPage, handlePageChange}) {
   return (
     <ul className="flex flex-row mb-8 mt-8 bg-white">
       <li>
-        <a
+        <a target="_blank"
           href="#About"
           onClick={() => handlePageChange("About")}
           className={
@@ -17,7 +17,7 @@ function NavBar({currentPage, handlePageChange}) {
         </a>
       </li>
       <li>
-        <a
+        <a target="_blank"
           href="#Contact"
           onClick={() => handlePageChange("Contact")}
           className={
@@ -30,7 +30,7 @@ function NavBar({currentPage, handlePageChange}) {
         </a>
       </li>
       <li>
-        <a
+        <a target="_blank"
           href="#Portfolio"
           onClick={() => handlePageChange("Portfolio")}
           className={
@@ -43,7 +43,7 @@ function NavBar({currentPage, handlePageChange}) {
         </a>
       </li>
       <li>
-        <a
+        <a target="_blank"
           href="#Resume"
           onClick={() => handlePageChange("Resume")}
           className={

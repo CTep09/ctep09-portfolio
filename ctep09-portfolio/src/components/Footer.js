@@ -7,8 +7,10 @@ function Footer() {
         <span className="footer-title">Social</span>
 
         <a
+          target="_blank"
           className="link link-primary font-bold "
           href="https://www.linkedin.com/in/cassie-tepper/"
+          rel="noreferrer"
         >
           <img
             src="https://skillicons.dev/icons?i=linkedin"
@@ -17,8 +19,10 @@ function Footer() {
         </a>
 
         <a
+          target="_blank"
           className="link link-accent font-bold"
           href="https://github.com/CTep09"
+          rel="noreferrer"
         >
           <img
             src="https://skillicons.dev/icons?i=github"
