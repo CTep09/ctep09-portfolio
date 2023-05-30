@@ -11,6 +11,8 @@
 
 ## 📑 Description
 
+[Link to My Profile](https://ctep09.github.io/ctep09-portfolio/)
+
 ## 💻 Usage
 
 ## 🚀 Technology
