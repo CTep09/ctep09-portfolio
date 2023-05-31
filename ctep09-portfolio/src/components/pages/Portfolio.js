@@ -67,7 +67,7 @@ function Portfolio() {
     },
   ];
   return (
-    <div className="flex flex-wrap mx-8">
+    <div className="flex justify-center flex-wrap mx-8">
       {projectData.map((project, index) => (
         <Project
           key={index}

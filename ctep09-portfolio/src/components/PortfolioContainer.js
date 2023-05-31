@@ -1,7 +1,6 @@
 // Importing React
 import React, { useState } from "react";
 
-import NavBar from "./NavBar";
 import Header from "./Header";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
@@ -28,15 +27,9 @@ function PortfolioContainer() {
 
   return (
     <div>
-      <Header />
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       <div className="flex justify-center items-center">
-        <div className=" items-center flex-col">
-          <NavBar
-            currentPage={currentPage}
-            handlePageChange={handlePageChange}
-          />
-          {renderPage()}
-        </div>
+        <div className=" items-center flex-col">{renderPage()}</div>
       </div>
       <Footer />
     </div>
