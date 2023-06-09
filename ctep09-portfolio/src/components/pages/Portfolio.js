@@ -10,8 +10,16 @@ function Portfolio() {
       alt: "barista",
       description: `The barista webapp dynamically generates local cafe's, and displays
       a list cafe's and their address.`,
-      site: "https://jonnyboy808.github.io/barista/",
+      site: "https://prose-n-cons.herokuapp.com/",
       repo: "https://github.com/CTep09/barista",
+    },
+    {
+      // img: "barista.gif",
+      name: "Prose & Cons",
+      alt: "Prose & Cons",
+      description: `Prose & Cons`,
+      site: "https://jonnyboy808.github.io/barista/",
+      repo: "https://github.com/CTep09/prose-and-cons",
     },
     {
       img: "hops-haven.png",
