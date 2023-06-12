@@ -14,11 +14,11 @@ function Portfolio() {
       repo: "https://github.com/CTep09/barista",
     },
     {
-      // img: "barista.gif",
+      img: "proseNCons.gif",
       name: "Prose & Cons",
       alt: "Prose & Cons",
       description: `Prose & Cons`,
-      site: "https://jonnyboy808.github.io/barista/",
+      site: "https://prose-n-cons.herokuapp.com/",
       repo: "https://github.com/CTep09/prose-and-cons",
     },
     {
