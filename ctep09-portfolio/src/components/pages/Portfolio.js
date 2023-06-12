@@ -17,7 +17,7 @@ function Portfolio() {
       img: "proseNCons.gif",
       name: "Prose & Cons",
       alt: "Prose & Cons",
-      description: `Prose & Cons`,
+      description: `Prose & Cons is a web application designed to cultivate a community around book ratings and recommendations.`,
       site: "https://prose-n-cons.herokuapp.com/",
       repo: "https://github.com/CTep09/prose-and-cons",
     },
