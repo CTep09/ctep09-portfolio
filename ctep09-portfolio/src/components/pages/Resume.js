@@ -1,5 +1,5 @@
 import React from "react";
-import ctepperResume from "../images/ctepperResume.png";
+import ctepperResume from "../images/resume.png";
 
 function Resume() {
   return (
@@ -46,7 +46,6 @@ function Resume() {
           </div>
         </div>
 
-        {/* More Skills Card */}
         <div className="card flex flex-row mx-4 mt-2 shadow-xl border-solid border-2 border-green-600 m-9">
           <div className="card-body">
             <h3 className="card-title font-semibold font-mono">More:</h3>
