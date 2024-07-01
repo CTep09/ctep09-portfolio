@@ -2,7 +2,7 @@ import React from "react";
 
 function NavBar({ currentPage, handlePageChange }) {
   return (
-    <nav className="flex flex-row justify-center m-1">
+    <nav className="flex flex-row justify-center  ">
       <ul className="flex flex-row mb-8 mt-8 bg-white">
         <li>
           <a
@@ -10,8 +10,8 @@ function NavBar({ currentPage, handlePageChange }) {
             onClick={() => handlePageChange("About")}
             className={
               currentPage === "About"
-                ? "btn btn-fill btn-error mr-4"
-                : "btn btn-outline btn-error mr-4"
+                ? "btn btn-fill border-cyan-600 text-white bg-cyan-600 mr-4"
+                : "btn btn-outline border-cyan-600 text-cyan-600 mr-4 hover:bg-cyan-700 hover:text-white hover:border-cyan-700"
             }
           >
             About
@@ -23,8 +23,8 @@ function NavBar({ currentPage, handlePageChange }) {
             onClick={() => handlePageChange("Contact")}
             className={
               currentPage === "Contact"
-                ? "btn btn-fill btn-error mr-4"
-                : "btn btn-outline btn-error mr-4"
+                ? "btn btn-fill border-cyan-600 text-white bg-cyan-600 mr-4"
+                : "btn btn-outline border-cyan-600 text-cyan-600 mr-4 hover:bg-cyan-700 hover:text-white hover:border-cyan-700"
             }
           >
             Contact
@@ -36,8 +36,8 @@ function NavBar({ currentPage, handlePageChange }) {
             onClick={() => handlePageChange("Portfolio")}
             className={
               currentPage === "Portfolio"
-                ? "btn btn-fill btn-error mr-4"
-                : "btn btn-outline btn-error mr-4"
+                ? "btn btn-fill border-cyan-600 text-white bg-cyan-600 mr-4"
+                : "btn btn-outline border-cyan-600 text-cyan-600 mr-4 hover:bg-cyan-700 hover:text-white hover:border-cyan-700"
             }
           >
             Portfolio
@@ -49,8 +49,8 @@ function NavBar({ currentPage, handlePageChange }) {
             onClick={() => handlePageChange("Resume")}
             className={
               currentPage === "Resume"
-                ? "btn btn-fill btn-error mr-4"
-                : "btn btn-error btn-outline mr-4"
+                ? "btn btn-fill border-cyan-600 text-white bg-cyan-600 mr-4"
+                : "btn btn-outline border-cyan-600 text-cyan-600 mr-4 hover:bg-cyan-700 hover:text-white"
             }
           >
             Resume
