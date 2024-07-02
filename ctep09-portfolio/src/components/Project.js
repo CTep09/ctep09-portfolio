@@ -3,7 +3,7 @@ import React from "react";
 function Project(props) {
   const img = require(`./images/${props.img}`);
   return (
-    <div className="card mx-4 mt-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 glass">
+    <div className="card mx-4 mt-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 glass my-8">
       <figure>
         <img
           src={img}
@@ -17,15 +17,15 @@ function Project(props) {
         <a
           target="_blank"
           href={props.site}
-          className="btn btn-outline"
+          className="btn btn-outline border-cyan-600 text-cyan-600 hover:bg-cyan-700 hover:text-white"
           rel="noreferrer"
         >
-          Visit {props.name} Site
+          Visit {props.name}
         </a>
         <a
           target="_blank"
           href={props.repo}
-          className="btn btn-outline"
+          className="btn btn-outline border-cyan-600 text-cyan-600 hover:bg-cyan-700 hover:text-white"
           rel="noreferrer"
         >
           GitHub Repository

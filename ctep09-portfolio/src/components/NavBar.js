@@ -26,7 +26,7 @@ function NavBar({ currentPage, handlePageChange }) {
         onClick={() => setIsOpen(!isOpen)}
       >
         <svg
-          className="w-8 h-8"
+          className="w-6 h-6"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -41,37 +41,11 @@ function NavBar({ currentPage, handlePageChange }) {
         </svg>
       </button>
       <ul
-        className={`flex flex-col md:flex-row mb-8 mt-8 bg-white ${
+        className={`flex flex-col md:flex-row mb-4 mt-4 bg-white ${
           isMobile && !isOpen ? "hidden" : "block"
         }`}
       >
-        <li className="mb-2 md:mb-0 md:mr-4">
-          <a
-            href="#About"
-            onClick={() => handlePageChange("About")}
-            className={
-              currentPage === "About"
-                ? "btn btn-fill border-cyan-600 text-white bg-cyan-600"
-                : "btn btn-outline border-cyan-600 text-cyan-600 hover:bg-cyan-700 hover:text-white hover:border-cyan-700"
-            }
-          >
-            About
-          </a>
-        </li>
-        <li className="mb-2 md:mb-0 md:mr-4">
-          <a
-            href="#Contact"
-            onClick={() => handlePageChange("Contact")}
-            className={
-              currentPage === "Contact"
-                ? "btn btn-fill border-cyan-600 text-white bg-cyan-600"
-                : "btn btn-outline border-cyan-600 text-cyan-600 hover:bg-cyan-700 hover:text-white hover:border-cyan-700"
-            }
-          >
-            Contact
-          </a>
-        </li>
-        <li className="mb-2 md:mb-0 md:mr-4">
+        <li className="mb-2 md:mb-0 md:mr-2">
           <a
             href="#Portfolio"
             onClick={() => handlePageChange("Portfolio")}
@@ -84,6 +58,33 @@ function NavBar({ currentPage, handlePageChange }) {
             Portfolio
           </a>
         </li>
+        <li className="mb-2 md:mb-0 md:mr-2">
+          <a
+            href="#About"
+            onClick={() => handlePageChange("About")}
+            className={
+              currentPage === "About"
+                ? "btn btn-fill border-cyan-600 text-white bg-cyan-600"
+                : "btn btn-outline border-cyan-600 text-cyan-600 hover:bg-cyan-700 hover:text-white hover:border-cyan-700"
+            }
+          >
+            About
+          </a>
+        </li>
+        <li className="mb-2 md:mb-0 md:mr-2">
+          <a
+            href="#Contact"
+            onClick={() => handlePageChange("Contact")}
+            className={
+              currentPage === "Contact"
+                ? "btn btn-fill border-cyan-600 text-white bg-cyan-600"
+                : "btn btn-outline border-cyan-600 text-cyan-600 hover:bg-cyan-700 hover:text-white hover:border-cyan-700"
+            }
+          >
+            Contact
+          </a>
+        </li>
+
         <li>
           <a
             href="#Resume"

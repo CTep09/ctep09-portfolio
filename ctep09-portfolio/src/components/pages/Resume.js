@@ -14,13 +14,13 @@ function Resume() {
           rel="noreferrer"
           className="btn btn-outline border-cyan-600 text-cyan-600 hover:bg-cyan-700 hover:text-white hover:border-cyan-700 py-2 px-4 rounded-lg"
         >
-          Click Here to Download My Resume
+          Download Resume
         </a>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
         {/* Front End Skills Card */}
-        <div className="card shadow-xl border-solid border-2 border-red-600 p-6 rounded-lg bg-white hover:shadow-2xl transition-shadow duration-300">
+        <div className="card shadow-xl border-solid border-2 border-cyan-600 p-6 rounded-lg bg-white hover:shadow-2xl transition-shadow duration-300">
           <div className="card-body">
             <h3 className="card-title font-semibold text-lg mb-4">
               Front End:
@@ -43,7 +43,7 @@ function Resume() {
         </div>
 
         {/* Back End Skills Card */}
-        <div className="card shadow-xl border-solid border-2 border-orange-600 p-6 rounded-lg bg-white hover:shadow-2xl transition-shadow duration-300">
+        <div className="card shadow-xl border-solid border-2 border-cyan-600 p-6 rounded-lg bg-white hover:shadow-2xl transition-shadow duration-300">
           <div className="card-body">
             <h3 className="card-title font-semibold text-lg mb-4">Back End:</h3>
             <ul className="list-disc ml-6 space-y-2">
@@ -68,7 +68,7 @@ function Resume() {
         </div>
 
         {/* Tools Skills Card */}
-        <div className="card shadow-xl border-solid border-2 border-yellow-600 p-6 rounded-lg bg-white hover:shadow-2xl transition-shadow duration-300">
+        <div className="card shadow-xl border-solid border-2 border-cyan-600 p-6 rounded-lg bg-white hover:shadow-2xl transition-shadow duration-300">
           <div className="card-body">
             <h3 className="card-title font-semibold text-lg mb-4">
               Development Tools and Environments:
@@ -89,23 +89,23 @@ function Resume() {
       {/* Card for Resume */}
       <div className="flex justify-center mt-8">
         <div className="card card-side bg-base-100 shadow-xl rounded-lg overflow-hidden">
-          <figure className="w-1/2">
+          <figure className="w-full">
             <img
               src={ctepperResume}
               alt="C Tepper Resume"
               className="object-cover"
             />
           </figure>
-          <div className="card-body w-1/2 p-6 flex items-center justify-center">
-            <a
-              href="https://drive.google.com/file/d/1SBZmntf_eTF50V0T-XhoGd6VX96BZp6j/view?usp=drive_link"
-              target="_blank"
-              rel="noreferrer"
-              className="btn btn-outline border-cyan-600 text-cyan-600 hover:bg-cyan-700 hover:text-white hover:border-cyan-700 py-2 px-4 rounded-lg"
-            >
-              Download Full Resume
-            </a>
-          </div>
+        </div>
+        <div className="card-body w-1/2 p-6 flex items-center justify-center">
+          <a
+            href="https://drive.google.com/file/d/1SBZmntf_eTF50V0T-XhoGd6VX96BZp6j/view?usp=drive_link"
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-outline border-cyan-600 text-cyan-600 hover:bg-cyan-700 hover:text-white hover:border-cyan-700 py-2 px-4 rounded-lg"
+          >
+            Download Full Resume
+          </a>
         </div>
       </div>
     </div>

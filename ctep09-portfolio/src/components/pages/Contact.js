@@ -28,74 +28,82 @@ function Contact({ handlePageChange }) {
   };
 
   return (
-    <div className="relative mx-8">
-      <div className="card space-y-4 w-96 bg-base-100 shadow-xl">
-        <form id="form" onSubmit={handleSubmit(onSubmit)}>
-          <div className="px-2 py-12">
-            <h2 className="text-2xl font-bold">Please Enter your Info!</h2>
-            <div className="mt-8 max-w-md">
-              <div className="grid grid-cols-1 gap-6">
-                <label className="block">
-                  <span className="text-gray-700">Name</span>
-                  <input
-                    type="text"
-                    className="
-                      mt-1
-                      block
-                      w-full
-                      rounded-md
-                      border-pink-200
-                      shadow-sm
-                      focus:border-pink-200 focus:ring focus:ring-green-100 focus:ring-opacity-50
-                    "
-                    placeholder=""
-                    {...register("name", { required: true })}
-                  />
-                </label>
-                <label className="block">
-                  <span className="text-gray-700">Email address</span>
-                  <input
-                    type="email"
-                    className="
-                      mt-1
-                      block
-                      w-full
-                      rounded-md
-                      border-pink-200
-                      shadow-sm
-                      focus:border-pink-200 focus:ring focus:ring-green-100 focus:ring-opacity-50
-                    "
-                    placeholder="john@example.com"
-                    {...register("email", { required: true })}
-                  />
-                </label>
+    <div className="relative mx-8 flex justify-start">
+      <div className="card glass">
+        <div className="card-body">
+          <form id="form" onSubmit={handleSubmit(onSubmit)}>
+            <div className="px-2">
+              <h2 className="text-2xl font-bold">
+                Please enter your information
+              </h2>
+              <div className="mt-8 max-w-md">
+                <div className="grid grid-cols-1 gap-6">
+                  <label className="block">
+                    <span className="text-gray-700">Name</span>
+                    <input
+                      type="text"
+                      className="
+                        mt-1
+                        block
+                        w-full
+                        rounded-md
+                        border-cyan-600
+                        shadow-sm
+                        focus:border-cyan-600 focus:ring focus:ring-green-100 focus:ring-opacity-50
 
-                <label className="block">
-                  <span className="text-gray-700">Please enter a message</span>
-                  <textarea
-                    className="
-                      mt-1
-                      block
-                      w-full
-                      rounded-md
-                      border-pink-200
-                      shadow-sm
-                      focus:border-pink-200 focus:ring focus:ring-green-50 focus:ring-opacity-100
-                    "
-                    rows="3"
-                    {...register("message", { required: true })}
-                  ></textarea>
-                </label>
-                <button
-                  type="submit"
-                  className="rounded-full bg-red-300 text-white"
-                >
-                  Submit
-                </button>
+                      "
+                      placeholder=""
+                      {...register("name", { required: true })}
+                    />
+                  </label>
+                  <label className="block">
+                    <span className="text-gray-700">Email address</span>
+                    <input
+                      type="email"
+                      className="
+                        mt-1
+                        block
+                        w-full
+                        rounded-md
+                        border-cyan-600
+                        shadow-sm
+                        focus:border-cyan-600 focus:ring focus:ring-green-100 focus:ring-opacity-50
+                      "
+                      placeholder="john@example.com"
+                      {...register("email", { required: true })}
+                    />
+                  </label>
+
+                  <label className="block">
+                    <span className="text-gray-700">
+                      Please enter a message
+                    </span>
+                    <textarea
+                      className="
+                        mt-1
+                        mb-4
+                        block
+                        w-full
+                        rounded-md
+                        border-cyan-600
+                        shadow-sm
+                        focus:border-cyan-600 focus:ring focus:ring-green-50 focus:ring-opacity-100
+                      "
+                      rows="3"
+                      {...register("message", { required: true })}
+                    ></textarea>
+                  </label>
+                  <button
+                    type="submit"
+                    className="btn btn-outline border-cyan-600 text-cyan-600 hover:bg-cyan-600"
+                  >
+                    Submit
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
       {submissionStatus === "success" && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
