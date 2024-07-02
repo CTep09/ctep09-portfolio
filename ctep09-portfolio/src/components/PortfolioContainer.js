@@ -20,7 +20,7 @@ function PortfolioContainer() {
     if (currentPage === "Resume") {
       return <Resume />;
     }
-    return <Contact />;
+    return <Contact handlePageChange={handlePageChange} />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);

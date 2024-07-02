@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="flex footer place-content-center p-2 bg-red-50 mt-8 ">
       <div className="align-center">
-        <span className="footer-title">Socials</span>
+        {/* <span className="footer-title">Socials</span> */}
         <div className="flex flex-row align-center">
           <a
             target="_blank"
@@ -30,7 +30,7 @@ function Footer() {
             ></img>
           </a>
 
-          <a
+          {/* <a
             target="_blank"
             className="link link-accent font-bold px-2"
             href="https://stackoverflow.com/users/21300398/cassie?tab=profile"
@@ -40,7 +40,7 @@ function Footer() {
               src="https://skillicons.dev/icons?i=stackoverflow"
               alt="Stack Overflow Profile"
             ></img>
-          </a>
+          </a> */}
         </div>
       </div>
     </footer>
