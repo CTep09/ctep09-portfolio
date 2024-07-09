@@ -5,11 +5,10 @@ import Project from "../Project";
 function Portfolio() {
   const projectData = [
     {
-      img: "barista.gif",
+      img: "frex.gif",
       name: "Friendly Rex",
       alt: "frex",
-      description: `The barista webapp dynamically generates local cafe's, and displays
-      a list cafe's and their address.`,
+      description: `A platform for book enthusiasts, overseeing both client and server-side development using a MERN stack with GraphQL.`,
       site: "https://friendlyrex.com/auth",
       // repo: "https://github.com/CTep09/barista",
     },
