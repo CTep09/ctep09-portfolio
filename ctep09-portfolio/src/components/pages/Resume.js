@@ -9,7 +9,7 @@ function Resume() {
       {/* Link to Download Resume */}
       <div className="text-center mb-8">
         <a
-          href="https://drive.google.com/file/d/1q1MT9vVezeH_Lb60SKHxwoDzdlqMxKPZ/view?usp=drive_link"
+          href="https://drive.google.com/file/d/14gvIfVWwIWEYC6braQ4v-G5rBSDN9bJd/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
           className="btn btn-outline border-cyan-600 text-cyan-600 hover:bg-cyan-700 hover:text-white hover:border-cyan-700 py-2 px-4 rounded-lg"
@@ -99,7 +99,7 @@ function Resume() {
         </div>
         <div className="card-body w-1/2 p-6 flex items-center justify-center">
           <a
-            href="https://drive.google.com/file/d/1q1MT9vVezeH_Lb60SKHxwoDzdlqMxKPZ/view?usp=drive_link"
+            href="https://drive.google.com/file/d/14gvIfVWwIWEYC6braQ4v-G5rBSDN9bJd/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="btn btn-outline border-cyan-600 text-cyan-600 hover:bg-cyan-700 hover:text-white hover:border-cyan-700 py-2 px-4 rounded-lg"
