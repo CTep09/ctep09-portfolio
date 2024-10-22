@@ -2,7 +2,7 @@
   "name": "ctep",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ctep09.github.io/ctep09-portfolio/",
+  "homepage": "https://cassietepper.com",
   "dependencies": {
     "axios": "^1.4.0",
     "daisyui": "^2.52.0",
